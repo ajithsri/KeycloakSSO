@@ -1,0 +1,86 @@
+﻿@model KeycloakCore.Keycloak.UserInfo
+
+@{
+    ViewBag.Title = "User Info";
+}
+<h2>@ViewBag.Title.</h2>
+<div>
+    <h4>Keycloak User Info</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PreferredUsername)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PreferredUsername)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Locale)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Locale)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GivenName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GivenName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MobileNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MobileNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FamilyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FamilyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailVerified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailVerified)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+
+<p>Use this area to provide additional information.</p>
